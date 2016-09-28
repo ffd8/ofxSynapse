@@ -12,11 +12,11 @@
 #include "ofMain.h"
 #include "ofxOsc.h"
 
-#define HOST "192.168.1.32"
-#define SEND_PORT 7110
+#define HOST "LOCALHOST"
+#define SEND_PORT 12345
 #define SEND_PORT2 12347
 #define RECEIVE_PORT 12346
-#define USE_TWO_OSC_PORTS   0  //make 1 to enable two ports
+#define USE_TWO_OSC_PORTS   1  //make 1 to enable two ports
 
 
 class IMessageReceiver
